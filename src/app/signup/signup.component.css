@@ -87,8 +87,9 @@ body {
   background: transparent;
   border: none;
   outline: none;
-  color: #23242a;
+  color: #0e0d0d;
   font-size: 1em;
+  z-index: 10;
   letter-spacing: 0.05em;
 }
 
@@ -126,6 +127,7 @@ body {
 .inputbox input:valid ~ i,
 .inputbox input:focus ~ i {
   height: 44px;
+
 }
 
 .links {
@@ -145,24 +147,24 @@ body {
   color: #45f3ff;
 }
 
-input[type="submit"] {
+button[type="submit"] {
   border: none;
   outline: none;
   background: #45f3ff;
   padding: 11px 25px;
   width: 100px;
   margin-top: 10px;
-  border-radius: 4px;
+  border-radius: 10px;
   font-weight: 600;
   cursor: pointer;
 }
 
-input[type="submit"]:active {
-  opacity: 0.8;
+button[type="submit"]:active {
+  opacity: 1.5;
 }
 
 .logo {
-  width: 80px;
+  width: 178px;
   height: 80px;
   margin: 0 auto 20px;
   display: block;
