@@ -159,6 +159,7 @@ button[type="submit"] {
   cursor: pointer;
 }
 
+
 button[type="submit"]:active {
   opacity: 1.5;
 }
